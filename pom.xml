@@ -53,7 +53,6 @@
         </dependency>
 
         <!-- mysql驱动 -->
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -65,7 +64,19 @@
             <version>1.1.23</version>
         </dependency>
 
-<!--        开启日志-->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
+        <!--整合springboot与junit测试依赖,此包自带junit包，无需重复导junit的包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!--        开启日志-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
